@@ -66,5 +66,5 @@ crop-yield-predictor/
 
 ## 👤 Author
 **Harshit Kushwah**
-- [LinkedIn](https://www.linkedin.com/in/harshit-kushwah)
+- [LinkedIn](https://www.linkedin.com/in/harshit-kushwah-)
 - [GitHub](https://github.com/its-harshit22)
