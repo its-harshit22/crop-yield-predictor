@@ -39,7 +39,7 @@ if st.button("Predict Yield"):
     pred = model.predict(input_data)[0]
     st.success(f"Predicted Yield: **{pred:.2f} hg/ha** ({pred/10000:.2f} tons/ha)")
     # Compare with historical average for this crop
-    df_orig = pd.read_csv('data/yield_df.csv')
+    df_orig = pd.read_csv('yield_df.csv')
     avg_yield = df_orig[df_orig['Item'] == crop]['hg/ha_yield'].mean()
 
     comparison = pd.DataFrame({
